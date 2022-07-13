@@ -23,6 +23,7 @@
 #include <linux/delay.h>
 #include <linux/cred.h>
 
+#define DEBUG 1
 #ifdef DEBUG
 #define kill_dbg(tsk)                                                        \
          pr_info("prlmk: comm:%s(%d) acc_rss:%llu killed",                   \
